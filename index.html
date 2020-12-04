@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Parcial 2</title>
+    <link rel = "stylesheet" href= "css/index.css">
+</head>
+<body>
+    <h1 id ="titulo">Julimarketing</h1>
+    <div id= "tituloPregunta">
+        <h3>Pregunta actual</h3>
+    </div>
+<div id = "aquivatodo">  
+    <div id= "ContenedorPregunta">
+        <div id= "PreguntaActual"></div>
+
+    </div>
+
+    <div id= "ContenedorAgregar">
+        <P>Escriba aquí la pregunta actual del focus group</P>
+        <input id ="ImputNuevaPregunta" type = "text" placeholder="Escriba una pregunta">
+        <button id ="Okbtn">OK</button>
+    </div>
+
+    <div id= "ContenedorPregunta">
+        <h3>HISTORICO</h3>
+        <div id="PreguntaVieja"></div>
+
+    </div>
+</div>
+  
+</body>
+</html>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyBzZJWHCQYnIUZ5DWxF7lq3T0SqUW2wFjg",
+    authDomain: "parcial2-eco-6ec80.firebaseapp.com",
+    databaseURL: "https://parcial2-eco-6ec80.firebaseio.com",
+    projectId: "parcial2-eco-6ec80",
+    storageBucket: "parcial2-eco-6ec80.appspot.com",
+    messagingSenderId: "845997094775",
+    appId: "1:845997094775:web:6a502942fd9b52ee34d372",
+    measurementId: "G-FE0EZ75P2N"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+<script src = "components/Cpregunta.js"></script>
+
+<script src = "components/CpreguntaRealizada.js"></script>
+
+<script src = "js/index.js"></script>

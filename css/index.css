@@ -1,0 +1,65 @@
+#titulo{
+    display: flex;
+    margin: 0auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+}
+#tituloPregunta{
+    padding: 20px 50px;
+    background: rgb(184, 135, 230);
+    color:white;
+    margin: 0 auto;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    
+    
+
+}
+
+#ContenedorPregunta{
+    
+    margin-top : 1em ;
+    margin-bottom: 1em;
+    background: #EEE;
+    width:  10em;
+    padding: 0.8em;
+    position: relative;
+    border-radius: 0.5em;
+
+}
+
+.deleteBtn{
+    background-color:red;
+    position:absolute;
+    right: 10px;
+    top : 10px;
+    width: 10px;
+    height: 10px;
+    
+}
+
+#ContenedorAgregar{
+    
+    margin-top : 1em ;
+    margin-bottom: 1em;
+    background: #EEE;
+    width:  10em;
+    padding: 0.8em;
+    position: relative;
+    border-radius: 0.5em;
+}
+
+#PreguntaVieja{
+    margin-top : 1em ;
+    margin-bottom: 1em;
+    background: rgb(224, 133, 133);
+    width:  10em;
+    padding: 0.8em;
+    position: relative;
+    border-radius: 0.5em;
+    
+}
